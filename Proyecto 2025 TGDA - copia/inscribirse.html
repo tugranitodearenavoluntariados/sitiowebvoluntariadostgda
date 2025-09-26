@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voluntariados en Uruguay</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" type="logo" href="logosinfondo.png">
+</head>
+<body>
+
+  <!-- Encabezado igual a otras páginas -->
+  <header>
+    <div class="logo">
+      <img src="logosinfondo.png" alt="Logo" />
+      <span>Tu granito de arena</span>
+    </div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="sobre.html">Sobre nosotros</a>
+      <a href="voluntariados.html">Voluntariados</a>
+      <a href="sumate.html" class="btn-header">Súmate</a>
+    </nav>
+  </header>
+
+  <!-- Formulario para ONG -->
+  <section style="max-width: 700px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 3px 7px rgba(0,0,0,0.1);">
+    <h1 style="color:#005A29; margin-bottom: 25px;">¿Quieres participar de un voluntariado?</h1>
+    <p style="font-size: 1.1rem; margin-bottom: 20px;">
+      Completá el siguiente formulario para inscribirte en el voluntariado deseado.
+    </p>
+
+    <form action="#" method="POST">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="departamento">Voluntariado</label>
+      <select id="departamento" name="departamento" required>
+        <option value="">-- Seleccioná --</option>
+        <option>Vida Silvestre</option>
+        <option>Damas Rosadas</option>
+        <option>Huellas Uruguay</option>
+        <option>Premacultura y ecología</option>
+      </select>
+      <label for="departamento">Departamento</label>
+      <textarea id="departamento" name="departamento" rows="5" placeholder="Escribe aquí el departamento en el cual quieres participar del voluntariado"></textarea>
+
+      <label for="contacto">Número de contacto</label>
+      <textarea id="contacto" name="contacto" rows="5" placeholder="Ejemplo: +598112233"></textarea>
+
+      <button type="submit">Publicar inscripción</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h4>Contacto</h4>
+
+            <div class="contactofooter">
+            <img class="logoscontacto" src="ubicacion.jpg" alt=""><span>Av. Solidaridad 123, Montevideo, Uruguay</span> <br>
+            </div>
+            
+            <div class="contactofooter">
+            <img class="logoscontacto"src="gmail.png" alt=""><span>tugranitodearena@gmail.com</span> <br>
+            </div>
+
+            <div class="contactofooter">
+            <img class="logoscontacto"src="contacto.jpg" alt=""><span>+598 123 456 789</span>
+            </div>
+          </div>
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 Tu granito de arena - Todos los derechos reservados
+    </div>
+</footer>
+</body>
+</html>
